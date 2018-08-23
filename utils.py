@@ -29,7 +29,7 @@ def data_loader(dir_path):
 def padder(X):
     max_len = max([len(i) for i in X])
     for j in tqdm(X):
-        j.extend([0] * (max_len - len(j)))    
+        j = librosa.util.fix_length(j,max_len)   
     return X,max_len
 
 # function to extract features
