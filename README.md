@@ -9,3 +9,8 @@ For our experiment we will use the python library - librosa - to extract feature
 A diagramatic representation of the models used and accuracy achieved by each model is given below:
 
 ### 1D CNN using extracted features as single concatenated list
+
+
+
+
+### 1D CNN using extracted features as seperate lists
