@@ -6,11 +6,3 @@ This dataset contains 1302 labeled sound recordings. Each recording is labeled w
 The dataset can be downloaded from here: https://urbansounddataset.weebly.com/urbansound.html
 
 For our experiment we will use the python library - librosa - to extract features from the sound files and then use 1D CNNs to classify the sounds.
-A diagramatic representation of the models used and accuracy achieved by each model is given below:
-
-### 1D CNN using extracted features as single concatenated list
-
-
-
-
-### 1D CNN using extracted features as seperate lists
